@@ -1,0 +1,41 @@
+{
+  "name": "payment-server",
+  "main": "index.js",
+  "pear": {
+    "name": "payment-server",
+    "type": "terminal"
+  },
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear run -d .",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0"
+  },
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.2",
+    "@langchain/cohere": "^0.3.2",
+    "@langchain/community": "^0.3.20",
+    "@langchain/langgraph": "^0.2.36",
+    "@langchain/openai": "^0.3.16",
+    "b4a": "^1.6.7",
+    "bare-process": "^4.0.0",
+    "bip39": "^3.1.0",
+    "cheerio": "^1.0.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "hyperbee": "^2.20.7",
+    "hypercore": "^10.38.1",
+    "hyperdht": "^6.20.1",
+    "hyperswarm": "^4.8.4",
+    "langchain": "^0.3.8",
+    "lib-wallet": "github:tetherto/lib-wallet#v0.0.1",
+    "lib-wallet-pay-btc": "github:tetherto/lib-wallet-pay-btc#v0.0.1",
+    "lib-wallet-store": "github:tetherto/lib-wallet-store#v0.0.1",
+    "llamaindex": "^0.8.30",
+    "wallet-seed-bip39": "github:tetherto/lib-wallet-seed-bip39#v0.0.1"
+  }
+}
