@@ -46,7 +46,7 @@ bitcoin-payment-wallet/
 └── wallet-store/                        # Persistent wallet storage
 ```
 
----
+## [Watch the video](https://www.loom.com/share/694d1e158ff04f6abb8df62cf5045e52?sid=deeaedbd-63b3-4afc-8300-7e91ace75856)
 
 ## ⚙️ Features
 
