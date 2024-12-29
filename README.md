@@ -206,7 +206,7 @@ Store: We need somewhere to store and index our splits, so that they can be sear
 Retrieval and generation
 Retrieve: Given a user input, relevant splits are retrieved from storage using a Retriever.
 Generate: A ChatModel / LLM produces an answer using a prompt that includes both the question with the retrieved data
-![retrieval_diagram](vectorstore.png)
+![retrieval_diagram](retrive.png)
 
 Once we’ve indexed our data, we will use LangGraph as our orchestration framework to implement the retrieval and generation steps.
 
